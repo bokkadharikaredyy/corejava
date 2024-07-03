@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	p.setIncome(income);
 	
 	Taxcal t =new Taxcal();
-	t.calculatetax(p);
+	t.calculatetax();
 	System.out.println("afteer modification");
 	System.out.println(p);
 	}
