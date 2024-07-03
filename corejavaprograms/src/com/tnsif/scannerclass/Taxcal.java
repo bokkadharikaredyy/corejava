@@ -1,8 +1,8 @@
 package com.tnsif.scannerclass;
 
 public class Taxcal {
-	Person p=new Person();
-	public void calculatetax()
+	//Person p=new Person();
+	public void calculatetax(Person p)
 	{
 		if(p.getIncome()<=1600)
 		{
